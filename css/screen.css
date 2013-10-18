@@ -1,0 +1,239 @@
+* { margin:0; padding:0; }
+body, div, span, p, a, img, ul, ol, li, table, th, tr, td, form, fieldset, legend, dl, dt, dd, blockquote, applet, object { border:0; }
+ul, ol {list-style-type:none}
+.mainbody {background: url('../img/atomium_31.png') 50% 0% repeat; background-size:cover;padding: 100px 0 0; font: normal 12px Arial,sans-serif; color: #303537;}
+.otherbody {background: url('../img/bg-repeat.jpg') repeat-x;padding: 100px 0 0; font: normal 12px Arial,sans-serif; color: #303537;}
+
+
+p {line-height: 1.9em;padding: 0 0 25px 0;}
+.noresult
+{
+  position:absolute;left:40%;top:40%;
+  font-family:'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	font-size:12px;
+	font-weight:700;
+
+}
+#mainsubmitbtn{-webkit-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	font-family:'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	font-size:12px;
+	font-weight:700;
+	padding:2px 6px;
+	height:28px;
+	color:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px}
+
+
+
+
+#a3
+{
+     -webkit-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	padding:2px 6px;
+	height:20px;
+	color:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#a4
+{
+    -webkit-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	padding:2px 6px;
+	height:20px;
+	color:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+/* LINKS ---------------------------------------------------------------------------------------------------------- */
+a {color: #c41477;text-decoration: underline;}
+a:link {color: #c41477;}
+a:focus {color: #c41477; outline: 0}
+a:visited {color: #c41477}
+a:hover {color: #000;text-decoration: none;}
+a.more {padding-right: 12px; background: url('../img/arrow.gif') no-repeat 100% 55%;}
+a.button {background: url('../img/button-start.gif') no-repeat;display: inline-block;text-decoration: none;color: #fff;font-weight: bold;}
+a.button span {display: inline-block;height: 33px;line-height: 33px;padding: 0 20px;color: #fff;font-weight: bold;background: url('../img/button-end.gif') no-repeat 100% 0}
+
+/* H1 - H5 -------------------------------------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { margin:15px 0 15px 0; }
+h1 { font-size: 2.4em;font-weight: normal;margin: 5px 0 10px 0; color: #303537;}
+h2 { font-size: 1.8em; margin: 0 0 20px; color: #303436;font-weight: normal;}
+h3 { font-size:1.2em;text-transform: uppercase;margin: 10px 0 15px;color: #303436;padding: 0 0 5px;}
+h4 { font-size:1.0em; color: #005e7c }
+h5 { font-size:1.0em; }
+
+/* LAYOUT --------------------------------------------------------------------------------------------------------- */
+.wrap {width: 875px;margin: 0 auto;position: relative}
+    /* HEADER ----------------------------------------------------------------------------------------------------- */
+    #header {background: url('../img/bg-header.jpg') repeat-x 0 50%;height: 99px;width: 100%;position: absolute;top: 0;left: 0}
+        /* logo */
+        a#logo {font-size: 2.5em;color: #fff;font-style: italic;padding: 0 10px;position: relative;top: 30px;text-decoration: none}
+
+        /* navigation */
+        ul#nav {position: relative;top: 30px;float: right;}
+            ul#nav li {float:left;}
+                ul#nav li a { padding: 0 15px;height: 32px; line-height: 32px;display: block;text-decoration: none;float: left;font-weight: bold;color: #fff; }
+                ul#nav li:hover {background: url('../img/nav-start.jpg') no-repeat;}
+                ul#nav li.active { color: #fff;background: url('../img/nav-start.jpg') no-repeat}
+                ul#nav li:hover a {background: url('../img/nav-end.jpg') no-repeat 100% 0}
+                ul#nav li.active a {background: url('../img/nav-end.jpg') no-repeat 100% 0}
+
+        
+  /* searchtext */
+  .searchtext
+  {
+    position: relative;top:25px;
+    width:500px;
+    height:25px;
+    font-size:15px;
+  } 
+  .searchbtn
+  {
+    width:60px;
+    height:26px;
+    color: white;
+    background-color:black;
+    position:relative;top:25px;
+    border: 1px solid #000;
+    border-color:black;
+    -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px; /* future proofing */
+-khtml-border-radius: 5px; /* for old Konqueror browsers */
+  
+  }
+   .fpsearchtext
+  {
+    position: relative;
+    margin-top: 25%;
+    width:500px;
+    height:25px;
+    font-size:15px;
+  } 
+  .fpsearchbtn
+  {
+    width:60px;
+    height:26px;
+    color: white;
+    background-color:black;
+    position:relative;
+    margin-top:25%;
+    border: 1px solid #000;
+    border-color:black;
+    -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px; /* future proofing */
+-khtml-border-radius: 5px; /* for old Konqueror browsers */
+  
+  }
+    .fbbutton
+    {
+      position:absolute;
+      top:5%;
+      left:93%; 
+      width:50px;
+      height:50px;     
+    }
+    
+    #intro {background: url('../img/bg-intro.jpg') repeat-x bottom;padding: 30px 0;width: 100%}
+    #intro .floatRight {width: 545px}
+    #intro .photo {float: left}
+    #intro .photo img {position: absolute;top: -31px;left:46px}
+    #intro p {font-size: 1.2em;padding-bottom: 5px;}
+    
+    /* COLS ----------------------------------------------------------------------------------------------------------- */
+    ul.cols {margin: 25px 10 35px 40px;background: url('../img/cols-bg.gif') repeat-y 50% 0;}
+        ul.cols li {margin-top:3px; float: left; width: 240px;padding: 0 0 0 25px;height:130px; border-right:solid rgba(128,128,128,0.1); border-width:2px;}
+            ul.cols li.center {margin: 0 70px;text-align: left;}
+                ul.cols li h2 {margin-bottom: 10px;text-transform: uppercase;font-size: 1.2em;font-weight: bold;color: #d11d6d;background: url('../img/arrow-down.gif') no-repeat 0 50%;padding: 0 0 0 25px}
+              ul.cols li p
+              {
+                 height:3px;
+              }
+               ul.cols ul li
+             {
+               height:15px;
+               border:none;
+               padding :0 0 0 0;
+             }
+                ul.cols after {content: ".";display: block;height: 0;clear: both;visibility: hidden}
+                ul.cols {display: inline-block;}
+                ul.cols {display: block;}
+                
+                
+                
+                
+    .title {color: #8c959c; display: block;background: url('../img/dot.gif') repeat-x 0 50%;padding: 0 10px;margin:10px 0 25px}
+    .title span {padding: 0 10px;background: #fff}
+    
+  	/* FOOTER ----------------------------------------------------------------------------------------------------- */
+    .footer {background: #e9e9e9 url('../img/bg-footer.jpg') no-repeat;height: 58px; line-height: 58px;padding: 0 20px;font-size: 0.9em; margin: 0 auto 20px;width: 890px;clear: both; overflow: hidden;}
+        .footer span {color: #87898a;display: block;}
+        .footer a {color: #87898a;}
+        .footer a.tempixo {display: inline-block;position: relative;width: 110px; height: 28px;line-height: 28px;margin-right: 20px;}
+            .footer a.tempixo span {width: 110px; height: 28px;display: inline-block;cursor: pointer; background: url('../img/tempixo-com.gif') no-repeat;position: absolute; top: 0; left: 0}
+    .fpfootermain {background: #e9e9e9 url('../img/bg-footer.jpg') no-repeat;height: 58px; line-height: 58px;padding: 0 20px;font-size: 0.9em; margin: 0 auto;width: 890px;;clear: both; overflow: hidden;position:absolute;bottom:1%;left:13%;}
+    .fpfooter {background: #e9e9e9 url('../img/bg-footer.jpg') no-repeat;height: 58px; line-height: 58px;padding: 0 20px;font-size: 0.9em; margin: 0 auto;width: 890px;;clear: both; overflow: hidden;position:fixed;bottom:0%;left:13%}
+        .footer span {color: #87898a;display: block;}
+        .footer a {color: #87898a;}
+        .footer a.tempixo {display: inline-block;position: relative;width: 110px; height: 28px;line-height: 28px;margin-right: 20px;}
+            .footer a.tempixo span {width: 110px; height: 28px;display: inline-block;cursor: pointer; background: url('../img/tempixo-com.gif') no-repeat;position: absolute; top: 0; left: 0}
+    .logopos
+    {
+       position:absolute;left:30%;
+       width = 300px;
+       margin: 0 auto;
+    }
+
+/* OTHER ----------------------------------------------------------------------------------------------------- */
+hr { display:block; height:1px; margin:10px 0; padding:0; border:0 solid #CCC; background:#CCC; color:#CCC;}
+.clear { clear:both; display: block; height:0;line-height:0;font-size:0; width: 100%;}
+.noscreen { display:none; }
+.floatLeft {float: left;}
+.floatRight {float: right;}
+img.floatLeft {margin-right: 20px}
+img.floatRight {margin-left: 20px}
+#secondarydiv
+{
+  position:absolute;
+  margin-left:35%;
+}
+#a501
+{
+  position:absolute;
+  margin-left:50%;
+  margin-top:10%;
+}
+.maindiv
+{
+   width:50%;
+   margin:0 auto;
+}
+
+.bold {font-weight: bold;}
+.center {text-align: center;}
+.noborder {border: 0;}
+/* clearfix */
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix {display: inline-block;}
+/* hidden for ie mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}

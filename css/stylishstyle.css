@@ -1,0 +1,86 @@
+<style>
+	
+    
+	.menu, .menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	.menu {
+		width: 100px;
+		
+	}
+	
+	.menu:before,
+	.menu:after {
+		content: "";
+		display: table;
+	}
+	
+	.menu:after {
+		clear: both;
+	}
+	
+	.menu {
+		zoom:1;
+	}
+	
+	.menu li {
+	float: left;
+	position: relative;
+    color:#d11d6d;
+	}
+	
+    .menu li a {
+    }
+	
+	.menu li:hover > a {
+		color: white;
+	}
+	
+	*html .menu li a:hover { 
+		color: white;
+	}
+	
+	.menu ul {
+		margin: 20px 0 0 0;
+		_margin: 0; 
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		left: 0;
+		z-index: 1;   
+ 
+        background-color:rgba(20,10,10,0.8);
+        
+		-moz-box-shadow: 0 -1px rgba(255,255,255,.7);
+		-webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.7);
+		box-shadow: 0 -1px 0 rgba(255,255,255,.7);	
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+        
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;  
+	}
+
+	.menu li:hover > ul {
+		opacity: 1;
+		visibility: visible;
+		margin: 0;
+        color:white;
+	}
+    
+    .menu ul li {
+		float: none;
+		display: block;
+
+      
+        color:white;
+	}
+
+		</style>
