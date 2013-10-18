@@ -1,11 +1,17 @@
 ResearchersOntology
 ===================
-Atomium\n
-Ontology Search Engine,
-Marc Nasrallah - Cyril El Hage -
+Atomium
+
+Ontology Search Engine
+
+Marc Nasrallah - Cyril El Hage
+
 École supérieure d'ingénieurs de Beyrouth - USJ - Lebanon
+
 February 12, 2013
+
 1-Requirements
+
 In order to understand this project, you will need knowledge in the following:
 • Ontologies (Very Good)
 • Manchester OWL Syntax and DLQuery(Very Good)
@@ -13,10 +19,12 @@ In order to understand this project, you will need knowledge in the following:
 • HTML, Javascript and jQuery(Moderate)
 
 2-Introduction
+
 This project is an Ontology search engine. The engine allows to query individuals
 from their object and data properties that are implemented in the Ontology.
 
 3-Client Side
+
 Since ontologies are still a new concept, developing a user interface is quite a challenge.
 We decided that the client will not use the Manchester Syntax, and that the Query can be built dynamically. 
 The Query’s complexity is therefore unknown. Here’s our idea for a user-friendly interface:
@@ -30,12 +38,14 @@ to modify the param- eters in order for the animations and placement to work pro
 Any suggestions or fixes are welcome!
 
 4-Server Side
+
 The server gets the string containing the request’s format, and dynamically
 communicates with the ontology to fill in the substring matches and build a
 complete Query in Manchester Syntax. It will then send the final Query to the engine.
 
 
 5 Adapting it to your ontology
+
 The java code will work whatever the ontology. In case you would like to add your own ontology, 
 you will have to modify the HTML and javascript (Drop down list items and their values). 
 The printer also trims and modifies the strings representing the properties we created. 
