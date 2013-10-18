@@ -1,7 +1,8 @@
 ResearchersOntology
 ===================
-Atomium Ontology Search Engine
-Marc Nasrallah - Cyril El Hage
+Atomium,
+Ontology Search Engine,
+Marc Nasrallah - Cyril El Hage -
 École supérieure d'ingénieurs de Beyrouth - USJ - Lebanon
 February 12, 2013
 1-Requirements
